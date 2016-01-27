@@ -1,0 +1,21 @@
+#include stdio.h
+
+// some more comments that should be ignored
+int main{
+	int test = 1;
+	while(test > 0){
+		test = test + 1110111; 
+		test = test - 2;
+	}
+	for( int i = test; i > 0; --i ){
+		cout << i;
+	}
+	int cat = test;
+	return cat;
+}
+<< [] 
+cout << "parse sample code we wrote for homework " //ignore this too
+
+"int int int char symbol symbol operator"
+
+//some comments to be ignored

@@ -1,0 +1,13 @@
+string readFile(){
+	TCHAR szEXEPath[2048];
+	char actualpath[2048];
+	GetModuleFileName(NULL, szEXEPath, 2048);
+	for (int i = 0; szEXEPath[i] != 0; i++){
+		actualpath[i] = szEXEPath[i];
+	}
+	cout << endl << endl;
+	string path(actualpath);
+	
+	completePath = path.substr(0, path.find_last_of("\\/")) + '\\' + name;
+	return completePath; 
+}

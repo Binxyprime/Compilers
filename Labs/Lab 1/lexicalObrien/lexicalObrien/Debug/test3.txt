@@ -1,0 +1,15 @@
+#include <fluffyBunnies>
+
+int main(){
+	void happyTimes();
+
+	happyTimes(){
+		cout << "all is well and good in the world now that test 3 has been oblitterated" << endl;
+	}
+	while(test3 != aPileofConfusingCompileErrors){
+		cout << "be merry" << endl;
+	}
+	if(test3 == ressurectedTest3)
+		quitLife();
+	return 0;
+}
